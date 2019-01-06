@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../img/main_bg.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #2b2b2b;
+}
+body * {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.b-container {
+    width: 686px;
+    height: 392px;
+    margin: 100px auto;
+    background-color: #111a28;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+}
+.b-container__header {
+    padding-top: 25px;
+}
+.b-logo {
+    margin-left: 20px;
+}
+.b-container__product {
+    overflow: hidden;
+}
+.b-product-picture {
+    float: left;
+}
+.b-picture {
+    margin-top: 68px;
+    margin-left: 36px;
+}
+.b-product-info {
+    padding-left: 445px;
+}
+.b-product-info__header {
+    color: #adafb3;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 26px;
+}
+.b-product-info__text {
+    color: #49505a;
+    font-size: 14px;
+    line-height: 26px;
+}
+.b-product-info__rating * {
+    margin-right: -2px;
+}
+.b-product-info__rating:hover {
+    cursor: pointer;
+}
+.b-product-info__options {
+    margin-top: 30px;
+    color: #797d84;
+}
+.b-product-info__options * {
+    display: inline-block;
+    border: 1px solid #797d84;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+}
+.b-product__button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.b-button a{
+    color: #797d84;
+    background-color: #202835;
+    padding: 10px 55px;
+    border: 1px solid #797d84;
+}
+.b-container__footer {
+    margin-top: 55px;
+}
+.b-color-selector {
+    margin-left: 175px;
+}
+.b-color-selector div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #111a28;
+    margin-right: 7px;
+}
+.b-color-selector div:hover {
+    border: 2px solid #7e838b;
+    cursor: pointer;
+}
+.b-color--blue {
+    background-color: #1f273f;
+}
+.b-color--white {
+    background-color: #ffffff;
+}
+.b-color--red {
+    background-color: #ed3333;
+}
+.b-color--aqua {
+    background-color: #29e3ea;
+}
